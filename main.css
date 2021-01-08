@@ -1,0 +1,258 @@
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+  }
+
+.page-container-home {
+    background-image: url("");
+    min-width: 100vh;
+    min-height: 100vh;
+    margin: auto;
+    padding: 0px;
+    font-family: 'PT Serif', serif;
+}
+
+.page-container-home h1 {
+    text-shadow: -4px 2px 3px #889696;
+}
+
+.page-container-home h2 {
+    text-shadow: -4px 2px 3px #889696;
+}
+
+.page-container-home::after {
+    content: "";
+    background: url("img/bouquet.jpg");
+    background-size: cover;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    overflow:hidden;
+    z-index: -1;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    margin: auto;
+    padding-top: 7%;    
+    padding-right: 14%;
+}
+
+h1 {
+    max-width: 100%;
+    font-size: 2em;
+    margin: auto;
+    color: #F5F5F5;
+}
+
+h2 {
+    max-width: 100%;
+    font-size: 1em;
+    margin: auto;
+    color: #F5F5F5;
+}
+
+body {
+    max-width: 100%;
+    margin: auto;
+    color: #F5F5F5;
+}
+
+
+.links a {
+    text-decoration: none;
+    max-width: 100%;
+    margin: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    color: #F5F5F5;
+    font-size: 25px;
+    float: right;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+a:visited {
+    text-decoration: none;
+    font-style: oblique;
+}
+
+/*About Page Specific*/
+
+.page-container-about {
+    min-width: 100vh;
+    min-height: 100vh;
+    padding: 0px;
+    text-align: center; 
+    font-family: 'PT Serif', serif;
+    overflow:hidden;
+}
+
+.page-container-about::after {
+    content: "";
+    background-image: url("img/cotton.jpg");
+    background-size: cover;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;
+}
+
+.content-wrap-about{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+#aboutheader{
+    text-shadow: -4px 2px 3px #889696;
+    margin-bottom: 5%;
+    font-size: 2.5em;
+}
+
+.skillsandpassions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 1%;
+    background: RGB(73,90,86);
+    border-radius: 30px;
+    background: rgb(245 245 245 / 30%);
+    backdrop-filter: blur(10px);
+    color: #495A56;
+    margin-bottom: 3%;
+}
+
+#skills h2 {
+    color: #495A56;
+    font-size: 1.5em;
+    padding: 10%;
+}
+
+#passions h2 {
+    color: #495A56;
+    font-size: 1.5em;
+    padding: 10%;
+}
+
+#skillslist ul {
+    list-style: none;
+    font-style: italic;
+}
+
+#passionslist ul {
+    list-style: none;
+    font-style: italic;
+}
+
+.about {
+    background: RGB(73,90,86);
+    border-radius: 30px;
+    background: rgb(245 245 245 / 30%);
+    backdrop-filter: blur(10px);
+    color: #495A56;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.about h2 {
+    color: #495A56;
+}
+
+.about-wrap{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#headshot{
+    border-radius: 16px;
+    filter: brightness(85%);
+}
+
+#box1{
+    padding-top: 2%;
+    margin-right: 5%;
+    margin-left: 3%;
+}
+
+/*Contact Page Specific*/
+
+.page-container-contact {
+    min-width: 100vh;
+    min-height: 100vh;
+    margin: auto;
+    padding: 0px;
+    text-align: center; 
+    font-family: 'PT Serif', serif;
+    overflow:hidden;
+}
+
+.page-container-contact::after {
+    content: "";
+    background-image: url("img/wheat.jpg");
+    background-size: cover;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.details {
+    background: RGB(73,90,86);
+    border-radius: 30px;
+    background: rgb(245 245 245 / 30%);
+    backdrop-filter: blur(10px);
+    width: 70%;
+    position: absolute;
+    right: 15%;
+    top: 40%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#contactline {
+    text-shadow: -4px 2px 3px #889696;
+    font-size: 2.2em;
+    padding-bottom: 3%;
+}
+
+.details a {
+    text-decoration: none;
+    max-width: 100%;
+    color: #F5F5F5;
+    font-size: 2em;
+    color: #495A56;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.details a:hover {
+    transform: scale(1.1);
+    font-style: italic;
+    font-weight: bold;
+    color: #889696;
+   
+}
+
+.details a:visited {
+    text-decoration: none;
+    font-style: oblique;
+}
