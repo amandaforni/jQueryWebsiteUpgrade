@@ -1,17 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <Title>About</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Slab&display=swap');
-    </style>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-</head>
-<div>
-
+    <head>
+        <meta charset="UTF-8">
+        <Title>About</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <style>@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Slab&display=swap');</style>
+    </head>
     <body>
         <div class="page-container-about">
             <div class="links" id="links-about">
@@ -31,12 +25,12 @@
                     </div>
                     <div id="skillslist">
                     <ul>
-                        
                         <li>HTML/CSS</li>
-                        <li>JavaScript & jQuery</li>
+                        <li>JavaScript/jQuery/node.js</li>
                         <li>AWS</li>
+                        <li>DynamoDB</li>
                         <li>OS - Linux & Windows</li>
-                        <li>Learning Python & DynamoDB</li>
+                        <li>Learning Python</li>
                     </ul>
                 </div>
                 <div id="passions">
@@ -55,16 +49,16 @@
                 <div class="about">
                     <div class="about-wrap">
                         <div id="box1">
-                            <h2>Journey into Coding</h2>
+                            <h2>Coding</h2>
                             <p>My coding experience goes back to using HTML for MySpace and an extension of my
                                 <br>father's website over 15 years ago. Jump 12 years and I'm navigating Python for use in
                                 ArcGIS.Three years past that, I took the next step of training with CodeNation, and have secured 
                                 an apprenticeship Junior Software Developer role. I have a strong interest in visualizing data, including 
                                 how visual and virtual experiences can aid the public in gaining better understanding of complex ideas. 
-                                Through my training, I am hoping to develop a deeper understanding of front-end software development 
+                                Through my training, I am hoping to develop a deeper understanding of software development 
                                 and forward-thinking UX/UI.
                             </p>
-                            <h2>The Fun Stuff</h2>
+                            <h2>Fun Stuff</h2>
                             <p>I am a knitter, cross-stitcher, sustainability enthusiast, and the pet-mom of two sassy cats and one very nervous dog. 
                                 Born in Chicago and based in St. Helens, I love spending days in Liverpool, Manchester and travelling 
                                 further abroad when not faced with a pandemic. My inspiration tends to come from the natural world.
@@ -77,19 +71,8 @@
                     </div>
                 </div>
             </div>
-
-            <script>
-                $("#aboutheader").hide();
-                $(".skillsandpassions").hide();
-                $(".about").hide();
-                $(document).ready(function () {
-                    $("#aboutheader").fadeIn(2000);
-                    $(".skillsandpassions").fadeIn(3000);
-                    $(".about").fadeIn(4000);
-
-                });
-            </script>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="js/script.js"></script>
     </body>
-</div>
-
 </html>
